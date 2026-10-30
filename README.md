@@ -10,6 +10,12 @@ animation clock, but each has its own samples, Fourier coefficients, epicycle
 chain, and pen-up return interval. This keeps disconnected marks visually
 separate while allowing all of them to animate together.
 
+## Demo
+
+[![Fourier Sketch demonstration](assets/demo.gif)](assets/FourierSketch-Demo.mp4)
+
+Click the animated preview to open the full-resolution video presentation.
+
 ## Requirements
 
 - A C++17 compiler
