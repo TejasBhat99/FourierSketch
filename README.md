@@ -63,8 +63,8 @@ canvas again resumes collection and adds another stroke to the existing drawing.
 The program represents a screen point as a complex number
 
 $$
-z = x + iy, \qquad x = \operatorname{Re}(z), \qquad
-y = \operatorname{Im}(z).
+z = x + iy, \qquad x = \mathrm{Re}(z), \qquad
+y = \mathrm{Im}(z).
 $$
 
 While the pointer is down, a point is retained only after it is at least two
@@ -119,9 +119,9 @@ $$
 If the canvas has width $W$ and height $H$, define the centered extents
 
 $$
-E_x = \max\left(1,\max_r\lvert\operatorname{Re}(p_r-\mu)\rvert\right),
+E_x = \max\left(1,\max_r\lvert\mathrm{Re}(p_r-\mu)\rvert\right),
 \qquad
-E_y = \max\left(1,\max_r\lvert\operatorname{Im}(p_r-\mu)\rvert\right).
+E_y = \max\left(1,\max_r\lvert\mathrm{Im}(p_r-\mu)\rvert\right).
 $$
 
 The implementation applies the uniform scale
@@ -200,10 +200,10 @@ Therefore the displayed coordinate functions are
 
 $$
 \begin{aligned}
-x_M(t)&=\operatorname{Re}(z_M(t))
+x_M(t)&=\mathrm{Re}(z_M(t))
 =\sum_{k\in\mathcal K_M}
 \left(a_k\cos\theta_k-b_k\sin\theta_k\right), \\
-y_M(t)&=\operatorname{Im}(z_M(t))
+y_M(t)&=\mathrm{Im}(z_M(t))
 =\sum_{k\in\mathcal K_M}
 \left(a_k\sin\theta_k+b_k\cos\theta_k\right).
 \end{aligned}
